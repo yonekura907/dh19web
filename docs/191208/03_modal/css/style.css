@@ -1,0 +1,13 @@
+.container{
+    width: 1140px;
+    margin: 100px auto;
+}
+.container .photo{
+    width: 200px;
+    height: 178px;
+    cursor: pointer;
+}
+.container .photo img{
+    width: 200px;
+    height: auto;
+}
