@@ -1,9 +1,9 @@
 ## jQuery
 
-* [jQuery基礎](02_jQuery/01_basic.md)
-* [セレクタ](02_jQuery/02_selector.md)
-* [イベント](02_jQuery/03_on.md)
-* [属性](02_jQuery/04_attribute.md)
+* [jQuery基礎](02_jquery/01_basic.md)
+* [セレクタ](02_jquery/02_selector.md)
+* [イベント](02_jquery/03_on.md)
+* [属性](02_jquery/04_attribute.md)
 
 &nbsp;
 &nbsp;
