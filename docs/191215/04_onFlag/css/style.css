@@ -1,0 +1,38 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.photo {
+    margin-bottom: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .7s ease;
+}
+
+.photo.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.photo img {
+    width: 400px;
+    height: auto;
+}
+
+.btn {
+    padding: 4px 20px;
+    background-color: #F96332;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFF;
+}
