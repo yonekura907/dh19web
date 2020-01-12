@@ -1,0 +1,75 @@
+body {
+    background-color: #F8F8F8;
+}
+
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.container .photo {
+    width: 400px;
+    height: 178px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.container ul.photo li {
+    width: 200px;
+    height: auto;
+    float: left;
+}
+
+.container .photo img {
+    width: 200px;
+    height: auto;
+}
+
+
+/* modal */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10000;
+    background-color: rgba(0, 0, 0, 0.98);
+    /* 一旦非表示にしておく */
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.modal.show {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-container img {
+    width: 600px;
+    height: auto;
+}
+
+.close {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.close i {
+    color: #FFF;
+}

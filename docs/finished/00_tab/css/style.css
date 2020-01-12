@@ -1,0 +1,47 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.container {
+    width: 400px;
+    margin: 100px auto;
+}
+
+.tab-menu {
+    overflow: hidden;
+
+}
+
+.tab-menu li {
+    background-color: #F96332;
+    color: #FFF;
+
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding: 16px 24px;
+    float: left;
+    margin-left: 2px;
+
+}
+
+.tab-content {
+    background-color: #FFF;
+    padding: 16px 24px;
+
+
+}
+
+.tab-content li {}
+
+.btn {
+    padding: 4px 20px;
+    background-color: #FFF;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 2;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
